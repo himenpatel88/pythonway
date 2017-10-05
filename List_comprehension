@@ -1,0 +1,49 @@
+#List comprehension programme 
+
+import sys;
+ 
+print ("Hello python!");
+
+#Without List comprehension
+odds = []
+
+for num  in range(15):
+    if num % 2 :
+        odds.append(num)
+
+print('Odd number:',odds)
+
+#With List comprehension
+number = [str(num) for num in range(15) ]
+print('Number:',number)
+
+
+# More Example
+
+odds1 = [num for num in range(15) if num % 2]
+
+print('Odd1 number:',odds1)
+
+
+even = [num for num in range(15) if not int(num) % 2]
+print('even number:',even)
+
+
+alphabet = [ chr(ordinal) for ordinal in range(ord('a') , ord('A') + 1 ) \
+    if chr(ordinal).isalpha() ]
+
+print("alphabet list is as followed ", alphabet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
