@@ -1,2 +1,2 @@
 # pythonway
-sample programms
+Python something you rely upon
